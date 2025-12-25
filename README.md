@@ -4,7 +4,7 @@ A full-stack application that scrapes articles from BeyondChats blog, enhances t
 
 ## 🌐 Live Demo
 
-**Frontend Application:** [https://beyond-chat-web-scrapper-bagegv0nf.vercel.app/](https://beyond-chat-web-scrapper-bagegv0nf.vercel.app/)
+**Frontend Application:** [https://beyond-chat-web-scrapper-bagegv0nf.vercel.app](https://beyond-chat-web-scrapper-bagegv0nf.vercel.app?_vercel_share=u6QQGGQ9DRSak1tjAqAylxhmoAGQLyoL)
 
 You can view both original and enhanced articles on the live site.
 
