@@ -1,0 +1,17 @@
+# Copy and paste these commands one by one:
+
+# 1. Install PHP 8.3 and extensions
+sudo apt install -y php8.3 php8.3-cli php8.3-common php8.3-mysql php8.3-zip php8.3-gd php8.3-mbstring php8.3-curl php8.3-xml php8.3-bcmath
+
+# 2. Verify PHP installation
+php -v
+
+# 3. Install Composer
+cd /tmp
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+sudo chmod +x /usr/local/bin/composer
+
+# 4. Verify Composer
+composer --version
+
