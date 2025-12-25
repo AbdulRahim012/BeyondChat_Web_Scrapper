@@ -9,7 +9,10 @@ return [
         'sqlite' => [
             'driver' => 'sqlite',
             'url' => env('DATABASE_URL'),
-            'database' => env('DB_DATABASE', database_path('database.sqlite')),
+            // For Vercel serverless, use /tmp directory if available, otherwise use default
+            'database' => env('DB_DATABASE', (is_dir('/tmp') && is_writable('/tmp')) 
+                ? '/tmp/database.sqlite' 
+                : database_path('database.sqlite')),
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],

@@ -2,6 +2,12 @@
 
 A full-stack application that scrapes articles from BeyondChats blog, enhances them using Google search results and OpenAI, and displays them in a modern React frontend.
 
+## 🌐 Live Demo
+
+**Frontend Application:** [https://beyond-chat-web-scrapper-bagegv0nf.vercel.app/](https://beyond-chat-web-scrapper-bagegv0nf.vercel.app/)
+
+You can view both original and enhanced articles on the live site.
+
 ## 📋 Project Overview
 
 This project consists of three main components:
